@@ -1,4 +1,4 @@
-# global_password
+
 # 各国の上位２００のパスワード
 
 https://observablehq.com/@abe-takumi-web/untitled@297
