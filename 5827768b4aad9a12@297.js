@@ -1,7 +1,7 @@
 // https://observablehq.com/@abe-takumi-web/untitled@297
 export default function define(runtime, observer) {
   const main = runtime.module();
-  const fileAttachments = new Map([["top_200_password_2020_by_country.csv",new URL("./files/1b6665d320b28f348e3524465d2c6eadc84d46529b2e9d8cc6be5cf4d4843aba50cc9e5e12dd0821d8d06b7a15410edb204d0f24ff5d658a628f9a70bd337ef1",import.meta.url)]]);
+  const fileAttachments = new Map([["top_200_password_2020_by_country.csv",new URL("1b6665d320b28f348e3524465d2c6eadc84d46529b2e9d8cc6be5cf4d4843aba50cc9e5e12dd0821d8d06b7a15410edb204d0f24ff5d658a628f9a70bd337ef1",import.meta.url)]]);
   main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));
   main.variable(observer()).define(["md"], function(md){return(
 md`# 各国の上位２００のパスワード`
