@@ -63,7 +63,7 @@ int main(){
         int zero = 0;
         double Turning = 0.6;
         int point = 0;
-        point += b[0];  //爪の角度（ざひょうてきな？）
+        point += b[0];  //開閉システムの角度（ざひょうてきな？）
         point -= b[1];
         double sum = 0.0;    //エレベータの座標
         sum += (double)speed[3];    //ここめちゃくちゃ重要なので、気をつけておいてください。speed[3]+?/128をするので。をするので。？は変数です。
